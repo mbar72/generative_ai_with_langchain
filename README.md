@@ -49,8 +49,9 @@ Whether you're extending existing workflows or architecting multi-agent systems 
 
 Thank you for choosing "Generative AI with LangChain"! We appreciate your enthusiasm and feedback.
 
-Please note that we've released several updated versions of the book. Consequently, there are three different branches for this repository: 
-* [2nd edition](https://github.com/benman1/generative_ai_with_langchain/tree/second_edition) - this is for the 2nd edition of the book, corresponding to ver 0.3 of LangChain.
+Please note that we've released several updated versions of the code to keep pace with the ecosystem. Consequently, there are four different branches for this repository: 
+* [v1](https://github.com/benman1/generative_ai_with_langchain/tree/v1) - **Latest Migration**: Updates for LangChain v1.0 and 2026 model standards (Python 3.12+).
+* [2nd edition](https://github.com/benman1/generative_ai_with_langchain/tree/second_edition) - Corresponds to the 2nd edition print, utilizing LangChain v0.3.
 * [softupdate](https://github.com/benman1/generative_ai_with_langchain/tree/softupdate) - this is for the soft update of the book (2024), corresponding to ver 0.1.13 of LangChain.
 * [main](https://github.com/benman1/generative_ai_with_langchain/tree/main) - this is the original version of the book (December 2023).
 
@@ -110,7 +111,7 @@ In the following table, you can find links to the directories in this repository
 ### Software and hardware list
 This is the companion repository for the book. Here are a few instructions that help getting set up. Please also see chapter 2. 
 
-All chapters rely on Python. 
+All chapters rely on Python (3.12 or higher is recommended for the `v1` branch).
 
 Please check the instructions for setting up the environment either in the book or [here](./SETUP.md). They include instructions for dependencies and API keys. **Following the instructions should make sure that you don't have any issues running the code in the book or this repository. If you encounter any issues, please make sure you've followed these instructions.**
 
@@ -127,6 +128,7 @@ We welcome contributions from developers of all levels. If you'd like to contrib
 
 [![repo contributors](https://contrib.rocks/image?repo=benman1/generative_ai_with_langchain)](https://github.com/benman1/generative_ai_with_langchain/graphs/contributors)
 
+A special thank you to [Leslie Pan](https://github.com/leslie-zi-pan) for leading the migration to LangChain v1.0 and updating the repository.
 
 <details> 
   <summary><h2>Get to know Authors</h2></summary>
